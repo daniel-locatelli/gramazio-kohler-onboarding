@@ -17,7 +17,7 @@ This guide assumes you have already received the following from ETH:
 
 > **Both email addresses point to the same inbox/account.** You do not manage two separate mailboxes.
 
-You will use slightly different usernames depending on the service. This is the single most common source of confusion, so here’s a quick reference:
+You will use slightly different usernames depending on the service. A reference specific to this onboarding:
 
 | Where | Username | Password |
 | --- | --- | --- |
