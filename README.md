@@ -28,15 +28,19 @@ You will use slightly different usernames depending on the service. This is the 
 
 ## 1. Wi-Fi (Eduroam)
 
-The catch: your Wi-Fi username follows a **different format** that depends on your relation to ETH — not your plain `@ethz.ch` address. Take your ETH user name and add the role-specific segment before `ethz.ch`:
+Two things trip people up here: your username isn't your plain email, and your password isn't your global password.
+
+**Network** &nbsp;·&nbsp; `eduroam`
+
+**Username** &nbsp;·&nbsp; your ETH username with a **role-specific domain** — *not* `@ethz.ch`:
 
 | Your role | Wi-Fi username |
 | --- | --- |
-| Staff (professors, assistants, **post-docs**, technical staff) | `<username>@staff-net.ethz.ch` |
-| Student (incl. **PhD students**) | `<username>@student-net.ethz.ch` |
+| Staff — professors, assistants, **post-docs**, technical staff | `<username>@staff-net.ethz.ch` |
+| Student — incl. **PhD students** | `<username>@student-net.ethz.ch` |
 | Visitor | `<username>@eth-visitors.ethz.ch` |
 
-- **Password:** your **network password** (a.k.a. Radius / WIFI / VPN password) — **not** your global password. You can set it at <https://password.ethz.ch>.
+**Password** &nbsp;·&nbsp; your **network password** (a.k.a. Radius / Wi-Fi / VPN password) — *not* your global password. Set or reset it at <https://password.ethz.ch>.
 
 More details: <https://isg.inf.ethz.ch/Main/ServicesNetworkWireless>
 
