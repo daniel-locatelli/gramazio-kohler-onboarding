@@ -1,12 +1,12 @@
 # Gramazio Kohler — ETH Zürich Onboarding
 
-A practical, step-by-step guide for getting set up at **Gramazio Kohler Research**, ETH Zürich (Institute of Technology in Architecture, D-ARCH). It captures the small gotchas that aren't obvious from the official docs, so the next person has a smoother start than the last.
+A practical setup guide for **Gramazio Kohler Research**, ETH Zürich (D-ARCH), covering the gotchas the official docs miss.
 
-> This guide is community-maintained. If something is out of date or unclear, please update it for the next person.
+> Community-maintained — please keep it current for the next person.
 
 ## Prerequisites
 
-This guide assumes you have already received the following from ETH / the team:
+This guide assumes you have already received the following from ETH:
 
 | Item | Details |
 | --- | --- |
@@ -17,20 +17,18 @@ This guide assumes you have already received the following from ETH / the team:
 
 > **Both email addresses point to the same inbox/account.** You do not manage two separate mailboxes.
 
-## Your ETH identities at a glance
-
-You will use slightly different usernames depending on the service. This is the single most common source of confusion, so keep this table handy:
+You will use slightly different usernames depending on the service. This is the single most common source of confusion, so here’s a quick reference:
 
 | Where | Username | Password |
 | --- | --- | --- |
 | Outlook / email | `<username>@ethz.ch` | Global password |
 | NAS | `<username>@ethz.ch` | Global password |
 | Google Workspace / Microsoft 365 | `<username>@ethz.ch` | Global password |
-| **Wi-Fi (Eduroam)** | role-dependent alias (see [Wi-Fi](#2-wi-fi-eduroam)) | **Network password** |
+| **Wi-Fi (Eduroam)** | role-dependent login (see [Wi-Fi](#2-wi-fi-eduroam)) | **Network password** |
 
 ## 1. Email (Outlook)
 
-To stay on the same page as the rest of the team, use **Outlook** (not another mail client).
+**Outlook** is the recommended email client, it keeps you aligned with the rest of the team. You can use another client if you prefer, but Outlook is the smoothest path.
 
 1. Go to <https://outlook.office.com/mail/>.
 2. Enter your `@ethz.ch` email.
@@ -38,7 +36,7 @@ To stay on the same page as the rest of the team, use **Outlook** (not another m
 
 ## 2. Wi-Fi (Eduroam)
 
-Wi-Fi is available in all ETH buildings (provided by ITS) and always requires authentication. The catch: your Wi-Fi username is a **third alias** that depends on your relation to ETH — not your plain `@ethz.ch` address. Take your ETH user name and add the role-specific segment before `ethz.ch`:
+Wi-Fi is available in all ETH buildings (provided by ITS) and always requires authentication. The catch: your Wi-Fi username follows a **different format** that depends on your relation to ETH — not your plain `@ethz.ch` address. Take your ETH user name and add the role-specific segment before `ethz.ch`:
 
 | Your role | Wi-Fi username |
 | --- | --- |
@@ -101,7 +99,7 @@ Request your licenses through ETH's **Unlimited** self-service portal: <https://
 ## Quick checklist
 
 - [ ] Log in to Outlook (`@ethz.ch` + global password)
-- [ ] Connect to Eduroam (role alias, e.g. `@student-net.ethz.ch` + network password)
+- [ ] Connect to Eduroam (role login, e.g. `@student-net.ethz.ch` + network password)
 - [ ] Access and map the NAS
 - [ ] Accept the Slack invite (`@arch.ethz.ch`)
 - [ ] Accept the GitHub invite (`@arch.ethz.ch`)
