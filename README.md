@@ -68,9 +68,9 @@ Once you're connected via Eduroam, you can reach the group NAS:
    - **Password:** your **global password**
 3. (Recommended) Use **Map network drive** for quick access in the future.
 
-![Map network drive dialog](./map-network-drive.jpg)
+<img src="./map-network-drive.jpg" alt="Map network drive dialog" width="500" />
 
-![Map network drive dialog](./map-network-drive-2.jpg)
+<img src="./map-network-drive-2.jpg" alt="Map network drive dialog" width="500" />
 
 The NAS serves a dual purpose:
 
