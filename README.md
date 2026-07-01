@@ -70,6 +70,8 @@ Once you're connected via Eduroam, you can reach the group NAS:
 
 ![Map network drive dialog](./map-network-drive.jpg)
 
+![Map network drive dialog](./map-network-drive-2.jpg)
+
 The NAS serves a dual purpose:
 
 - **Storage** for the group's files.
