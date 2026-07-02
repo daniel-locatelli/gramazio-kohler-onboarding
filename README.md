@@ -44,7 +44,7 @@ Two things trip people up here: your username isn't any of your email addresses,
 
 More details: <https://isg.inf.ethz.ch/Main/ServicesNetworkWireless>
 
-## 2. Email (Outlook)
+## 2. Email & Calendar
 
 **Outlook** is the recommended email client, it keeps you aligned with the rest of the team. You can use another client if you prefer, but Outlook is the smoothest path.
 
@@ -59,7 +59,7 @@ The NAS serves a dual purpose:
 - **Storage** for the group's files.
 - **Content Management System (CMS)** for the group website: <https://gramaziokohler.arch.ethz.ch/>
 
-> ⚠️ _TODO: document how the CMS workflow works (how content on the NAS maps to the published website)._
+> _TODO: document how the CMS workflow works (how content on the NAS maps to the published website)._
 
 Once you're connected via Eduroam, you can reach the group NAS:
 
@@ -74,35 +74,35 @@ Once you're connected via Eduroam, you can reach the group NAS:
 1. Open **File Explorer** and enter the address above and _wait_.
 2. Click  **More choices**. Don't accept the default account. 
 <figure>
-  <img src="./nas-credentials-1.jpg" alt="Enter network credentials dialog defaulting to the network account" width="350" />
+  <img src="./nas-credentials-1.jpg" alt="Enter network credentials dialog defaulting to the network account" width="400" />
   <figcaption><em>2a. The dialog opens pre-filled with your <strong>network account</strong>, which the NAS rejects. Click <strong>More choices</strong> at the bottom.</em></figcaption>
 </figure>
 
 <br />
 
 <figure>
-  <img src="./nas-credentials-2.jpg" alt="Credentials dialog expanded with Use a different account option" width="350" />
+  <img src="./nas-credentials-2.jpg" alt="Credentials dialog expanded with Use a different account option" width="400" />
   <figcaption><em>2b. Select <strong>Use a different account</strong>.</em></figcaption>
 </figure>
 
 <br />
 
 <figure>
-  <img src="./nas-credentials-3.jpg" alt="Credentials dialog filled with global email and password" width="350" />
+  <img src="./nas-credentials-3.jpg" alt="Credentials dialog filled with global email and password" width="400" />
   <figcaption><em>2c. Enter your <strong>global</strong> email and password, then tick <strong>Remember my credentials</strong> so you're not asked again.</em></figcaption>
 </figure>
 
 3. **(Recommended)** Map it as a network drive so it stays available and reconnects at sign-in.
 
 <figure>
-  <img src="./map-network-drive-1.jpg" alt="This PC context menu with Map network drive highlighted" width="500" />
+  <img src="./map-network-drive-1.jpg" alt="This PC context menu with Map network drive highlighted" width="550" />
   <figcaption><em>3a. At <strong>This PC</strong>, click the three dots (…) and select <strong>Map network drive</strong>.</em></figcaption>
 </figure>
 
 <br />
 
 <figure>
-  <img src="./map-network-drive-2.jpg" alt="Map Network Drive dialog with drive letter and folder path" width="500" />
+  <img src="./map-network-drive-2.jpg" alt="Map Network Drive dialog with drive letter and folder path" width="550" />
   <figcaption><em>3b. Fill in the dialog:</em>
     <ul>
       <li>In <strong>Drive</strong>, select the letter <code>M:</code> (or any other available letter).</li>
@@ -116,11 +116,11 @@ Once you're connected via Eduroam, you can reach the group NAS:
 <br />
 
 <figure>
-  <img src="./map-network-drive-3.jpg" alt="Windows Security dialog to enter network credentials" width="350" />
+  <img src="./map-network-drive-3.jpg" alt="Windows Security dialog to enter network credentials" width="400" />
   <figcaption><em>3c. Enter your global email and password.</em></figcaption>
 </figure>
 
-> ⚠️ _TODO: add macOS and Linux instructions._
+> _TODO: add macOS and Linux instructions._
 
 ## 4. Slack
 
