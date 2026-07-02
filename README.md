@@ -68,9 +68,27 @@ Once you're connected via Eduroam, you can reach the group NAS:
    - **Password:** your **global password**
 3. (Recommended) Use **Map network drive** for quick access in the future.
 
-<img src="./map-network-drive.jpg" alt="Map network drive dialog" width="500" />
+<figure>
+  <img src="./map-network-drive.jpg" alt="This PC context menu with Map network drive highlighted" width="500" />
+  <figcaption><em>1. At <strong>This PC</strong>, click the three dots (…) and select <strong>Map network drive</strong>.</em></figcaption>
+</figure>
 
-<img src="./map-network-drive-2.jpg" alt="Map network drive dialog" width="500" />
+<figure>
+  <img src="./map-network-drive-2.jpg" alt="Map Network Drive dialog with drive letter and folder path" width="500" />
+  <figcaption><em>2. Fill in the dialog:</em>
+    <ul>
+      <li>In <strong>Drive</strong>, select the letter <code>M:</code> (or any other available letter).</li>
+      <li>In <strong>Folder</strong>, enter <code>\\nas22.ethz.ch\arch_ita_gramazio_kohler</code>.</li>
+      <li>Check <strong>Reconnect at sign-in</strong>.</li>
+      <li>Check <strong>Connect using different credentials</strong>.</li>
+    </ul>
+  </figcaption>
+</figure>
+
+<figure>
+  <img src="./map-network-drive-3.jpg" alt="Windows Security dialog to enter network credentials" width="500" />
+  <figcaption><em>3. Enter your global email and password.</em></figcaption>
+</figure>
 
 The NAS serves a dual purpose:
 
