@@ -54,6 +54,13 @@ More details: <https://isg.inf.ethz.ch/Main/ServicesNetworkWireless>
 
 ## 3. NAS (storage + website CMS)
 
+The NAS serves a dual purpose:
+
+- **Storage** for the group's files.
+- **Content Management System (CMS)** for the group website: <https://gramaziokohler.arch.ethz.ch/>
+
+> ⚠️ _TODO: document how the CMS workflow works (how content on the NAS maps to the published website)._
+
 Once you're connected via Eduroam, you can reach the group NAS:
 
 ```
@@ -89,13 +96,6 @@ Once you're connected via Eduroam, you can reach the group NAS:
   <img src="./map-network-drive-3.jpg" alt="Windows Security dialog to enter network credentials" width="500" />
   <figcaption><em>3. Enter your global email and password.</em></figcaption>
 </figure>
-
-The NAS serves a dual purpose:
-
-- **Storage** for the group's files.
-- **Content Management System (CMS)** for the group website: <https://gramaziokohler.arch.ethz.ch/>
-
-> ⚠️ _TODO: document how the CMS workflow works (how content on the NAS maps to the published website)._
 
 ## 4. Slack
 
