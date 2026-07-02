@@ -81,6 +81,7 @@ Once you're connected via Eduroam, you can reach the group NAS:
 </figure>
 
 <br />
+<br />
 
 <figure>
   <img src="./map-network-drive-2.jpg" alt="Map Network Drive dialog with drive letter and folder path" width="500" />
