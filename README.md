@@ -163,12 +163,12 @@ Request the Google Workspace and Microsoft 365 licenses through ETH's **Unlimite
 
 ### Other tools
 
-- **Zoom** — for meetings with external partners (needs a license).
+- **Zoom** — log in with your `@ethz.ch` email; it redirects to the ETH login page, where you enter your global email and global password.
 - **Rhino** — the group's main CAD environment (needs a license).
 - **Zotero** — reference manager.
 - **ORCiD** — persistent researcher identifier; worth registering if you'll publish.
 
-> _TODO: document where the Zoom and Rhino licenses are requested._
+> _TODO: document where the Rhino license is requested._
 
 ## 8. VPN
 
