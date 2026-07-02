@@ -103,12 +103,15 @@ Once you're connected via Eduroam, you can reach the group NAS:
 \\nas22.ethz.ch\arch_ita_gramazio_kohler
 ```
 
-**On Windows:**
+**Detailed setup by OS:**
+
+<details>
+<summary><strong>Windows</strong></summary>
 
 > ⚠️ **The first connection is slow and silent** — No feedback for ~2 minutes.
 
 1. Open **File Explorer** and enter the address above and _wait_.
-2. Click  **More choices**. Don't accept the default account. 
+2. Click  **More choices** (don't accept the default account).
 <figure>
   <img src="./nas-credentials-1.jpg" alt="Enter network credentials dialog defaulting to the network account" width="400" />
   <figcaption><em>2a. The dialog opens pre-filled with your <strong>network account</strong>, which the NAS rejects. Click <strong>More choices</strong> at the bottom.</em></figcaption>
@@ -127,6 +130,8 @@ Once you're connected via Eduroam, you can reach the group NAS:
   <img src="./nas-credentials-3.jpg" alt="Credentials dialog filled with global email and password" width="400" />
   <figcaption><em>2c. Enter your <strong>global</strong> email and password, then tick <strong>Remember my credentials</strong> so you're not asked again.</em></figcaption>
 </figure>
+
+<br />
 
 3. **(Recommended)** Map it as a network drive so it stays available and reconnects at sign-in.
 
@@ -156,7 +161,21 @@ Once you're connected via Eduroam, you can reach the group NAS:
   <figcaption><em>3c. Enter your global email and password.</em></figcaption>
 </figure>
 
-> _TODO: add macOS and Linux instructions._
+</details>
+
+<details>
+<summary><strong>Linux</strong></summary>
+
+> _TODO: add Linux instructions._
+
+</details>
+
+<details>
+<summary><strong>macOS</strong></summary>
+
+> _TODO: add macOS instructions._
+
+</details>
 
 ### 3.4 VPN
 
@@ -193,7 +212,7 @@ The team will send an invite to your **`@arch.ethz.ch`** address. Accept it to j
 
 ### 4.5 Zoom
 
-Log in with your `@ethz.ch` email and password; you don't have to request a license.
+Log in with your `@ethz.ch` email and password; you get a license automatically.
 
 ### 4.6 Rhino
 
