@@ -88,14 +88,9 @@ More details: <https://isg.inf.ethz.ch/Main/ServicesNetworkWireless>
 2. Enter your `@ethz.ch` email.
 3. Sign in with your **global password**.
 
-### 3.3 Network drives (storage + website CMS)
+### 3.3 Network drives (GKR Server)
 
-The group's main network drive — the **GKR Server** — serves a dual purpose:
-
-- **Storage** for the group's files.
-- **Content Management System (CMS)** for the group website: <https://gramaziokohler.arch.ethz.ch/>
-
-> _TODO: document how the CMS workflow works (how content on the network drive maps to the published website)._
+The **GKR Server** is the group's **file storage** — projects, documentation, images, videos, and templates all live here. It's also the foundation of the group website, through a rigid project folder structure — see [§5](#5-the-gkr-database).
 
 Once you're connected via eduroam, you can reach the GKR Server:
 
@@ -225,13 +220,30 @@ Log in with your `@ethz.ch` email and password; you get a license automatically.
 
 ### 4.8 Project folders
 
-Set up your **project folder(s)** on the **GKR Server** (the group's main network drive) and in the Google Drive shared project drive.
+Set up your **project folder(s)** on the **GKR Server** (the group's main network drive) and in the Google Drive shared project drive. On the server, keep to the fixed project template — these folders feed the group website ([§5](#5-the-gkr-database)).
 
-### 4.9 GKR database
+## 5. The GKR database
 
-Set up a **GKR database** intro meeting with Alessandra Gabaglio.
+The **GKR database** is the group's content system: each project's descriptions, images, publications, events, and contacts live here, and the public website (<https://gramaziokohler.arch.ethz.ch/>) is **generated from it**.
 
-## 5. Coding
+You feed it from two directions:
+
+- **Files** live on the **GKR Server** ([§3.3](#33-network-drives-gkr-server)), where every project follows a **fixed template**. Specific folders are synced from there into the database — so stick to the template and naming conventions exactly; don't rename or add folders, or the sync breaks.
+- **Entries** — the project's text, captions, and image details — you **create and manage directly in the database**.
+
+The database then generates the website from the two combined.
+
+```mermaid
+flowchart LR
+    You(["You"]) -->|"save files to<br/>fixed folders"| Server["GKR Server<br/>(project folders)"]
+    You -->|"create and<br/>manage entries"| DB[("GKR database")]
+    Server -->|"feeds<br/>specific folders"| DB[("GKR database")]
+    DB -->|"generates"| Web(["Public website"])
+```
+
+To get started, set up a **GKR database intro meeting** with Alessandra Gabaglio (gabaglio@arch.ethz.ch).
+
+## 6. Coding
 
 The group's computational stack is Python-centric and built around [COMPAS](https://compas.dev/index.html).
 
@@ -242,9 +254,9 @@ The group's computational stack is Python-centric and built around [COMPAS](http
    - [COMPAS documentation](https://compas.dev/index.html)
    - [COMPAS in Rhino](https://compas.dev/compas/latest/gettingstarted/rhino.html)
    - [Tutorials — COMPAS II](https://github.com/compas-teaching/COMPAS-II-FS2023) (FS2023 edition — check whether a newer one exists)
-5. Set up a **coding guidelines** intro meeting with Gonzalo Casas or Chen Kasirer.
+5. Set up a **coding guidelines** intro meeting with Gonzalo Casas (casas@arch.ethz.ch) or Chen Kasirer (kasirer@arch.ethz.ch).
 
-## 6. Mailing lists & recurring meetings
+## 7. Mailing lists & recurring meetings
 
 **Mailing lists:**
 
@@ -257,21 +269,21 @@ The group's computational stack is Python-centric and built around [COMPAS](http
 - COMPAS dev meeting (bi-weekly)
 - Weekly cross section
 
-## 7. Building access & trainings
+## 8. Building access & trainings
 
 - **RFL** (Robotic Fabrication Laboratory) — request access; the **security training** is required.
 - **IDL** (Immersive Design Lab) — request access and training.
 
 > _TODO: document who grants access and how the trainings are scheduled._
 
-## 8. Admin & perks
+## 9. Admin & perks
 
 - **ETHIS** (ETH's administration portal) — where absences are recorded.
   > _TODO: confirm with Tanja whether presence time must be entered as well, or only absences._
 - **Halbtax** — SBB half-fare travelcard; request it through Tanja.
 - **ETH Group Management (ACLs)** — access to shared resources is tied to ETH group memberships; ask your supervisor to add you to the relevant groups.
 
-## 9. Reading
+## 10. Reading
 
 - Read the **[office manual](https://github.com/gramaziokohler/gkr_office_manual/blob/main/office_manual.md)**.
 - **New PhDs:** read the **PhD study guides** by ETH (received per email).
@@ -327,12 +339,12 @@ First contacts by topic.
 
 | Where | Role | People |
 | --- | --- | --- |
-| **GKR** | Admin & finance | Tanja |
-| **GKR** | Postdocs | Oliver, Lauren, Petrus, Ines, Ania |
-| **GKR** | PR & communication | Alessandra |
+| **GKR** | Admin & finance | Tanja (fehr@arch.ethz.ch) |
+| **GKR** | Postdocs | Oliver (bucklin@arch.ethz.ch), Lauren (vasey@arch.ethz.ch), Petrus (apetrus@arch.ethz.ch), Inés (ariza@arch.ethz.ch), Anja (akunic@ethz.ch) |
+| **GKR** | PR & communication | Alessandra (gabaglio@arch.ethz.ch) |
 | **GKR** | Teaching team, assistants | _TODO_ |
-| **NCCR** | Management | Russell, Kaitlin, Blanca |
-| **NCCR** | Budget & expenses | Tanja, Blanca |
-| **NCCR** | Software ecosystem | Tom, Chen, Gonzalo |
+| **NCCR** | Management | Russell (loveridge@dfab.ch), Kaitlin (mcnally@dfab.ch), Blanca (hren@dfab.ch) |
+| **NCCR** | Budget & expenses | Tanja (fehr@arch.ethz.ch), Blanca (hren@dfab.ch) |
+| **NCCR** | Software ecosystem | Tom (van.mele@arch.ethz.ch), Chen (kasirer@arch.ethz.ch), Gonzalo (casas@arch.ethz.ch) |
 | **RFL** | Lab team | Philippe, Mike, Toby |
 | **ITA** | Coordinator, RQEs | _TODO_ |
