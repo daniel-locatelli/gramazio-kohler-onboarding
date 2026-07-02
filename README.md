@@ -26,7 +26,7 @@ Every service signs you in as `<username>@ethz.ch` with your **global password**
 
 ### 1.1 Food & coffee on campus
 
-_Links open Google Maps; hours & menus shift each semester — see the [live page](https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg.html)._
+_Hours & menus shift each semester — see the [live page](https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg.html)._
 
 - **[FUSION meal & coffee](https://maps.app.goo.gl/EuoSGRFboac5KGyY7)** — free-flow restaurant (classic/veg, pasta, buffet) + adjacent coffee shop; HCI.
 - **[Food Market](https://maps.app.goo.gl/zjg8U73At9AwHuJs8)** — SV counter (pizza/pasta, grill, veg); HPR.
