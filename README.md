@@ -271,17 +271,18 @@ The group's computational stack is Python-centric and built around [COMPAS](http
 
 ## 8. Building access & trainings
 
-- **RFL** (Robotic Fabrication Laboratory) — request access; the **security training** is required.
+- **RFL** (Robotic Fabrication Laboratory) — access is granted only after an **in-person instruction by the RFL staff**. Arrange it through the **GKR RFL coordinator**, who is the first contact for anything RFL-related.
+  - Working with concrete? The **RFL concrete lab** has its own instruction, given by the lab leader.
 - **IDL** (Immersive Design Lab) — request access and training.
-
-> _TODO: document who grants access and how the trainings are scheduled._
+  > _TODO: not covered in the office manual — confirm who grants IDL access and how its training is scheduled._
 
 ## 9. Admin & perks
 
 - **ETHIS** (ETH's administration portal) — where absences are recorded.
   > _TODO: confirm with Tanja whether presence time must be entered as well, or only absences._
-- **Halbtax** — SBB half-fare travelcard; request it through Tanja.
+- **Halbtax** — SBB half-fare travelcard; request it through Tanja. Details on the [ETH travel page](https://ethz.ch/staffnet/de/finanzen-und-controlling/reisen.html).
 - **ETH Group Management (ACLs)** — access to shared resources is tied to ETH group memberships; ask your supervisor to add you to the relevant groups.
+  > _TODO: list which groups a new member needs and who can add them._
 
 ## 10. Reading
 
