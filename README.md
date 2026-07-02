@@ -261,7 +261,7 @@ First contacts by topic.
 - [ ] Accept the GitHub invite (`@arch.ethz.ch`) and join the project repos
 - [ ] Request Google Workspace license + get added to shared drives
 - [ ] Request Microsoft 365 license
-- [ ] Zoom and Rhino licenses
+- [ ] Log in to Zoom (`@ethz.ch` + global password); request the Rhino license
 - [ ] Set up the VPN
 - [ ] Get added to the ETH groups (ACLs)
 
