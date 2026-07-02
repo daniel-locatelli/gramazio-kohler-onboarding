@@ -163,7 +163,7 @@ Request the Google Workspace and Microsoft 365 licenses through ETH's **Unlimite
 
 ### Zoom
 
-Log in with your `@ethz.ch` email and password; it doesn't require a license.
+Log in with your `@ethz.ch` email and password; you don't have to request a license.
 
 ### Rhino
 
