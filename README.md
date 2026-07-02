@@ -73,16 +73,16 @@ Once you're connected via Eduroam, you can reach the group NAS:
 2. When prompted, sign in with:
    - **Username:** `<username>@ethz.ch`
    - **Password:** your **global password**
-3. (Recommended) Use **Map network drive** for quick access in the future.
+3. **(Recommended)** Map it as a network drive so it stays available and reconnects at sign-in — follow steps **a–c** below.
 
 <figure>
   <img src="./map-network-drive.jpg" alt="This PC context menu with Map network drive highlighted" width="500" />
-  <figcaption><em>1. At <strong>This PC</strong>, click the three dots (…) and select <strong>Map network drive</strong>.</em></figcaption>
+  <figcaption><em>a. At <strong>This PC</strong>, click the three dots (…) and select <strong>Map network drive</strong>.</em></figcaption>
 </figure>
 
 <figure>
   <img src="./map-network-drive-2.jpg" alt="Map Network Drive dialog with drive letter and folder path" width="500" />
-  <figcaption><em>2. Fill in the dialog:</em>
+  <figcaption><em>b. Fill in the dialog:</em>
     <ul>
       <li>In <strong>Drive</strong>, select the letter <code>M:</code> (or any other available letter).</li>
       <li>In <strong>Folder</strong>, enter <code>\\nas22.ethz.ch\arch_ita_gramazio_kohler</code>.</li>
@@ -94,8 +94,10 @@ Once you're connected via Eduroam, you can reach the group NAS:
 
 <figure>
   <img src="./map-network-drive-3.jpg" alt="Windows Security dialog to enter network credentials" width="500" />
-  <figcaption><em>3. Enter your global email and password.</em></figcaption>
+  <figcaption><em>c. Enter your global email and password.</em></figcaption>
 </figure>
+
+> ⚠️ _TODO: add macOS and Linux instructions._
 
 ## 4. Slack
 
