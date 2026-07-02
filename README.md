@@ -176,7 +176,7 @@ Once you're connected via eduroam, you can reach the GKR Server:
 
 Needed to reach some internal services from outside the campus network.
 
-- **Setup** &nbsp;·&nbsp; ETH VPN service page: <https://ethz.ch/staffnet/en/it-services/catalogue/network/vpn.html>
+- **Setup** &nbsp;·&nbsp; ETH VPN service page: <https://unlimited.ethz.ch/en/help/network/vpn>
 - **Username** &nbsp;·&nbsp; the same role-based login as [Wi-Fi](#31-wi-fi) (e.g. `<username>@student-net.ethz.ch`)
 - **Password** &nbsp;·&nbsp; your **network password**
 
@@ -335,16 +335,15 @@ The group's computational stack is Python-centric and built around [COMPAS](http
 
 First contacts by topic.
 
-> ⚠️ _This roster comes from notes last edited in 2022 — verify who currently holds each role._
-
 | Where | Role | People |
 | --- | --- | --- |
-| **GKR** | Admin & finance | Tanja (fehr@arch.ethz.ch) |
-| **GKR** | Postdocs | Oliver (bucklin@arch.ethz.ch), Lauren (vasey@arch.ethz.ch), Petrus (apetrus@arch.ethz.ch), Inés (ariza@arch.ethz.ch), Anja (akunic@ethz.ch) |
-| **GKR** | PR & communication | Alessandra (gabaglio@arch.ethz.ch) |
-| **GKR** | Teaching team, assistants | _TODO_ |
-| **NCCR** | Management | Russell (loveridge@dfab.ch), Kaitlin (mcnally@dfab.ch), Blanca (hren@dfab.ch) |
-| **NCCR** | Budget & expenses | Tanja (fehr@arch.ethz.ch), Blanca (hren@dfab.ch) |
-| **NCCR** | Software ecosystem | Tom (van.mele@arch.ethz.ch), Chen (kasirer@arch.ethz.ch), Gonzalo (casas@arch.ethz.ch) |
+| **GKR** | Admin & finance | Tanja fehr@arch.ethz.ch |
+| **GKR** | Postdocs | Oliver bucklin@arch.ethz.ch, Lauren vasey@arch.ethz.ch, Petrus apetrus@arch.ethz.ch, Inés ariza@arch.ethz.ch, Anja akunic@ethz.ch |
+| **GKR** | PR & communication | Alessandra gabaglio@arch.ethz.ch |
+| **GKR** | Teaching team | _TODO_ |
+| **GKR** | Assistants | _TODO_ |
+| **NCCR** | Management | Russell loveridge@dfab.ch, Kaitlin mcnally@dfab.ch, Blanca hren@dfab.ch |
+| **NCCR** | Budget & expenses | Tanja fehr@arch.ethz.ch, Blanca hren@dfab.ch |
+| **NCCR** | Software ecosystem | Tom van.mele@arch.ethz.ch, Chen kasirer@arch.ethz.ch, Gonzalo casas@arch.ethz.ch |
 | **RFL** | Lab team | Philippe, Mike, Toby |
 | **ITA** | Coordinator, RQEs | _TODO_ |
