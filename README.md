@@ -144,9 +144,9 @@ The team will send an invite to your **`@arch.ethz.ch`** address. Accept it to j
 
 The team will send an invite to your **`@arch.ethz.ch`** address. Accept it to join the organization, and ask to be added to the project repositories you'll work on.
 
-## 7. Google Workspace & Microsoft 365 licenses
+## 7. Software & licenses
 
-Request your licenses through ETH's **Unlimited** self-service portal: <https://unlimited.ethz.ch/en/help>
+Request the Google Workspace and Microsoft 365 licenses through ETH's **Unlimited** self-service portal: <https://unlimited.ethz.ch/en/help>
 
 ### Google Workspace
 
@@ -161,16 +161,16 @@ Request your licenses through ETH's **Unlimited** self-service portal: <https://
 2. Approval takes about **5 minutes**.
 3. Once approved, you can log in to **Teams** with your `@ethz.ch` email and **global password**.
 
-## 8. Software & licenses
+### Other tools
 
 - **Zoom** — for meetings with external partners (needs a license).
 - **Rhino** — the group's main CAD environment (needs a license).
 - **Zotero** — reference manager.
 - **ORCiD** — persistent researcher identifier; worth registering if you'll publish.
 
-> _TODO: document where each license is requested._
+> _TODO: document where the Zoom and Rhino licenses are requested._
 
-## 9. VPN
+## 8. VPN
 
 Needed to reach some internal services from outside the campus network.
 
@@ -178,7 +178,7 @@ Needed to reach some internal services from outside the campus network.
 - **Username** &nbsp;·&nbsp; the same role-based login as [Wi-Fi](#2-wi-fi-eduroam) (e.g. `<username>@student-net.ethz.ch`)
 - **Password** &nbsp;·&nbsp; your **network password**
 
-## 10. Development environment
+## 9. Development environment
 
 The group's computational stack is Python-centric and built around [COMPAS](https://compas.dev/index.html).
 
@@ -191,21 +191,21 @@ The group's computational stack is Python-centric and built around [COMPAS](http
    - [Tutorials — COMPAS II](https://github.com/compas-teaching/COMPAS-II-FS2022) (FS2022 edition — check whether a newer one exists)
 5. Set up a **coding guidelines** intro meeting with Gonzalo Casas or Chen Kasirer.
 
-## 11. Building access & trainings
+## 10. Building access & trainings
 
 - **RFL** (Robotic Fabrication Lab) — request access; the **security training** is required.
 - **IDL** (Immersive Design Lab) — request access and training.
 
 > _TODO: document who grants access and how the trainings are scheduled._
 
-## 12. Admin & perks
+## 11. Admin & perks
 
 - **ETHIS** (ETH's administration portal) — where absences are recorded.
   > _TODO: confirm with Tanja whether presence time must be entered as well, or only absences._
 - **Halbtax** — SBB half-fare travelcard; request it through Tanja.
 - **ETH Group Management (ACLs)** — access to shared resources is tied to ETH group memberships; ask your supervisor to add you to the relevant groups.
 
-## 13. Mailing lists & recurring meetings
+## 12. Mailing lists & recurring meetings
 
 **Mailing lists:**
 
@@ -218,7 +218,7 @@ The group's computational stack is Python-centric and built around [COMPAS](http
 - COMPAS dev meeting (bi-weekly)
 - Weekly cross section
 
-## 14. First days
+## 13. First days
 
 Things to do and set up during your first days:
 
@@ -232,7 +232,7 @@ Things to do and set up during your first days:
 
 - Read the **PhD study guides** by ETH (received per email).
 
-## 15. Who is who
+## 14. Who is who
 
 First contacts by topic.
 
