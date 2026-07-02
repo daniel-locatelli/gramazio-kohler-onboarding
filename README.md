@@ -12,12 +12,12 @@ This guide assumes you have already received the following from ETH:
 | --- | --- |
 | **Global email** | `<username>@ethz.ch` |
 | **Department email** | `<username>@arch.ethz.ch` |
-| **Global password** | Used for email, NAS, Google/Microsoft logins, etc. |
-| **Network password** | Separate password used **only** for Wi-Fi / VPN / Eduroam |
+| **Global password** | Used for email, network drives, Google/Microsoft logins, etc. |
+| **Network password** | Separate password used **only** for Wi-Fi / VPN / eduroam |
 
 > **Both email addresses point to the same inbox/account.** You do not manage two separate mailboxes.
 
-Every service signs you in as `<username>@ethz.ch` with your **global password**, except **Wi-Fi (Eduroam) and VPN**, which use a role-dependent login and your **network password** (see [Wi-Fi](#31-wi-fi)).
+Every service signs you in as `<username>@ethz.ch` with your **global password**, except **Wi-Fi (eduroam) and VPN**, which use a role-dependent login and your **network password** (see [Wi-Fi](#31-wi-fi)).
 
 ## 1. First day at the office
 
@@ -74,9 +74,9 @@ Two things trip people up here: your username isn't any of your email addresses,
 
 **Password** &nbsp;·&nbsp; your **network password** (Radius / Wi-Fi / VPN password). Set or reset it at <https://password.ethz.ch>.
 
-On Linux and Android, Eduroam needs extra configuration: [Wi-Fi (Linux and Android)](https://unlimited.ethz.ch/en/help/network/manuals-and-documentation/manuals-wlan-wifi/wifi-linux-and-android).
+On Linux and Android, eduroam needs extra configuration: [Wi-Fi (Linux and Android)](https://unlimited.ethz.ch/en/help/network/manuals-and-documentation/manuals-wlan-wifi/wifi-linux-and-android).
 
-ETH also runs an `eth-iot` network for devices that can't join Eduroam.
+ETH also runs an `eth-iot` network for devices that can't join eduroam.
 
 More details: <https://isg.inf.ethz.ch/Main/ServicesNetworkWireless>
 
@@ -88,16 +88,16 @@ More details: <https://isg.inf.ethz.ch/Main/ServicesNetworkWireless>
 2. Enter your `@ethz.ch` email.
 3. Sign in with your **global password**.
 
-### 3.3 NAS (storage + website CMS)
+### 3.3 Network drives (storage + website CMS)
 
-The NAS serves a dual purpose:
+The group's main network drive — the **GKR Server** — serves a dual purpose:
 
 - **Storage** for the group's files.
 - **Content Management System (CMS)** for the group website: <https://gramaziokohler.arch.ethz.ch/>
 
-> _TODO: document how the CMS workflow works (how content on the NAS maps to the published website)._
+> _TODO: document how the CMS workflow works (how content on the network drive maps to the published website)._
 
-Once you're connected via Eduroam, you can reach the group NAS:
+Once you're connected via eduroam, you can reach the GKR Server:
 
 ```
 \\nas22.ethz.ch\arch_ita_gramazio_kohler
@@ -114,7 +114,7 @@ Once you're connected via Eduroam, you can reach the group NAS:
 2. Click  **More choices** (don't accept the default account).
 <figure>
   <img src="./nas-credentials-1.jpg" alt="Enter network credentials dialog defaulting to the network account" width="400" />
-  <figcaption><em>2a. The dialog opens pre-filled with your <strong>network account</strong>, which the NAS rejects. Click <strong>More choices</strong> at the bottom.</em></figcaption>
+  <figcaption><em>2a. The dialog opens pre-filled with your <strong>network account</strong>, which the GKR Server rejects. Click <strong>More choices</strong> at the bottom.</em></figcaption>
 </figure>
 
 <br />
@@ -185,9 +185,9 @@ Needed to reach some internal services from outside the campus network.
 - **Username** &nbsp;·&nbsp; the same role-based login as [Wi-Fi](#31-wi-fi) (e.g. `<username>@student-net.ethz.ch`)
 - **Password** &nbsp;·&nbsp; your **network password**
 
-## 4. Software essentials & ecosystem
+## 4. Software ecosystem
 
-Slack and GitHub arrive as invites from the team. The Google and Microsoft licenses you request yourself through ETH's **Unlimited** self-service portal: <https://unlimited.ethz.ch/en/help>
+Slack, GitHub and Zoom don't need a license request. Google and Microsoft licenses you have to request yourself through ETH's **Unlimited** self-service portal: <https://unlimited.ethz.ch/en/help>
 
 ### 4.1 Slack
 
@@ -197,22 +197,22 @@ The team will send an invite to your **`@arch.ethz.ch`** address. Accept it to j
 
 The team will send an invite to your **`@arch.ethz.ch`** address. Accept it to join the organization, and ask to be added to the project repositories you'll work on.
 
-### 4.3 Google Workspace
+### 4.3 Zoom
+
+Log in with your `@ethz.ch` email and password; you get a license automatically.
+
+### 4.4 Google Workspace
 
 1. Follow **"Google Workspace — Getting a License"**: <https://unlimited.ethz.ch/en/help/googlews/getting-started/first-steps>
 2. Approval takes about **10 minutes**.
 3. Once approved, log in to Google services with your `@ethz.ch` email and **global password**.
 4. Ask the team to add you to the **shared project drives**.
 
-### 4.4 Microsoft 365
+### 4.5 Microsoft 365
 
 1. Follow **"Requesting an M365 License"**: <https://unlimited.ethz.ch/en/help/m365/getting-started/m365-first-steps>
 2. Approval takes about **5 minutes**.
 3. Once approved, you can log in to **Teams** with your `@ethz.ch` email and **global password**.
-
-### 4.5 Zoom
-
-Log in with your `@ethz.ch` email and password; you get a license automatically.
 
 ### 4.6 Rhino
 
@@ -225,7 +225,7 @@ Log in with your `@ethz.ch` email and password; you get a license automatically.
 
 ### 4.8 Project folders
 
-Set up your **project folder(s)** on the GKR server (NAS) and in the Google Drive shared project drive.
+Set up your **project folder(s)** on the **GKR Server** (the group's main network drive) and in the Google Drive shared project drive.
 
 ### 4.9 GKR database
 
@@ -259,7 +259,7 @@ The group's computational stack is Python-centric and built around [COMPAS](http
 
 ## 7. Building access & trainings
 
-- **RFL** (Robotic Fabrication Lab) — request access; the **security training** is required.
+- **RFL** (Robotic Fabrication Laboratory) — request access; the **security training** is required.
 - **IDL** (Immersive Design Lab) — request access and training.
 
 > _TODO: document who grants access and how the trainings are scheduled._
@@ -273,7 +273,7 @@ The group's computational stack is Python-centric and built around [COMPAS](http
 
 ## 9. Reading
 
-- Read the **office manual**. _TODO: document where it lives._
+- Read the **[office manual](https://github.com/gramaziokohler/gkr_office_manual/blob/main/office_manual.md)**.
 - **New PhDs:** read the **PhD study guides** by ETH (received per email).
 
 ## Quick checklist
@@ -285,20 +285,20 @@ The group's computational stack is Python-centric and built around [COMPAS](http
 
 **Getting connected**
 
-- [ ] Connect to Eduroam (role login, e.g. `@student-net.ethz.ch` + network password)
+- [ ] Connect to eduroam (role login, e.g. `@student-net.ethz.ch` + network password)
 - [ ] Log in to Outlook (`@ethz.ch` + global password)
-- [ ] Access and map the NAS
+- [ ] Access and map the GKR Server (network drive)
 - [ ] Set up the VPN
 
 **Software & ecosystem**
 
 - [ ] Accept the Slack invite (`@arch.ethz.ch`)
 - [ ] Accept the GitHub invite (`@arch.ethz.ch`) and join the project repos
+- [ ] Log in to Zoom (`@ethz.ch` + global password)
 - [ ] Request Google Workspace license + get added to shared drives
 - [ ] Request Microsoft 365 license
-- [ ] Log in to Zoom (`@ethz.ch` + global password)
 - [ ] Request the Rhino license
-- [ ] Project folders on the GKR server + Google Drive shared drive
+- [ ] Project folders on the GKR Server + Google Drive shared drive
 - [ ] GKR database intro with Alessandra Gabaglio
 
 **Coding**
