@@ -1,9 +1,8 @@
-# Gramazio Kohler — ETH Zürich Onboarding
+# Gramazio Kohler Research — Onboarding
 
-A practical onboarding guide for **Gramazio Kohler Research**, ETH Zürich (D-ARCH) — accounts, tools, people, and the gotchas the official docs miss.
+A practical onboarding guide for **Gramazio Kohler Research**, ETH Zürich — accounts, tools, people, and the gotchas the official docs miss.
 
 > Community-maintained — please keep it current for the next person.
-> Parts of this guide were merged from the group's [Notion onboarding notes](https://marble-forest-5bf.notion.site/On-boarding-new-employees-8609a941976143468566c7198cac579e).
 
 ## Prerequisites
 
@@ -12,22 +11,43 @@ This guide assumes you have already received the following from ETH:
 | Item | Details |
 | --- | --- |
 | **Global email** | `<username>@ethz.ch` |
-| **Department email** | `<username>@arch.ethz.ch` (Department of Architecture) |
+| **Department email** | `<username>@arch.ethz.ch` |
 | **Global password** | Used for email, NAS, Google/Microsoft logins, etc. |
 | **Network password** | Separate password used **only** for Wi-Fi / VPN / Eduroam |
 
 > **Both email addresses point to the same inbox/account.** You do not manage two separate mailboxes.
 
-You will use slightly different usernames depending on the service. A reference specific to this onboarding:
+Every service signs you in as `<username>@ethz.ch` with your **global password**, except **Wi-Fi (Eduroam) and VPN**, which use a role-dependent login and your **network password** (see [Wi-Fi](#wi-fi-eduroam)).
 
-| Where | Username | Password |
+## 1. First day at the office
+
+- Get a **tour of the office**.
+- Learn the **food options** on campus.
+
+### Food & coffee on campus
+
+_Links open Google Maps or the venue's ETH page; hours & menus shift each semester — see the [live page](https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg.html)._
+
+- **[FUSION meal & coffee](https://maps.app.goo.gl/EuoSGRFboac5KGyY7)** — free-flow restaurant (classic/veg, pasta, buffet) + adjacent coffee shop; HCI.
+- **[Food Market](https://maps.app.goo.gl/zjg8U73At9AwHuJs8)** — SV counter (pizza/pasta, grill, veg); HPR.
+- **[Alumni quattro Lounge](https://maps.app.goo.gl/cGtFkSMN6dCLm8Mj8)** — lounge café.
+- **[Rice UP!](https://maps.app.goo.gl/5nKEjqt3zGEhrJY9A)** — Asian rice bowls.
+- **[Mendokoro](https://maps.app.goo.gl/wgPFVYDUpktqSjxy7)** — Japanese ramen & snacks, takeaway; HXE.
+- **[Restaurant Bellavista](https://maps.app.goo.gl/wWmT2XTKVNs43WGVA)** — table-service restaurant, pricier option.
+- **[Coop supermarket](https://maps.app.goo.gl/7Zzzgq639gCaZWWcA)** — on campus.
+- **[Street food](https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/street-food.html)** — rotating food trucks, Mon–Fri from 11:00, seasonal (Aug–Dec):
+  - **[Stefano-Franscini-Platz](https://maps.app.goo.gl/NMJCScv9bo2ssMJC7)** — coffee & snacks
+  - **[Joseph-von-Deschwanden-Platz](https://maps.app.goo.gl/iFgtBzVB6viNLat5A)** — hot meals
+
+| Day | Stefano-Franscini-Platz | Joseph-von-Deschwanden-Platz |
 | --- | --- | --- |
-| Outlook / email | `<username>@ethz.ch` | Global password |
-| NAS | `<username>@ethz.ch` | Global password |
-| Google Workspace / Microsoft 365 | `<username>@ethz.ch` | Global password |
-| **Wi-Fi (Eduroam) / VPN** | role-dependent login (see [Wi-Fi](#2-wi-fi-eduroam)) | **Network password** |
+| **Mon** | Bar Caffetteria Otter | Caribbean Flair (as of 17.08.) |
+| **Tue** | Petit Frère + Äss-Bar | Ada Lokma (Anatolian) + Bra-Bro-Gourmet (burgers, as of 14.09.) |
+| **Wed** | Miró Coffee + Äss-Bar (until 11.09.) | Wesley's Kitchen (Asian/momos) |
+| **Thu** | Il Macchinista + Äss-Bar (until 11.09.) | Memo Food (kebab) + FAINO (Ukrainian, as of 17.09.) |
+| **Fri** | Mate's Coffee + Äss-Bar | Mundo Del Gusto (burgers) |
 
-## 1. Hardware
+## 2. Hardware
 
 The group provides your workstation. When yours is being arranged, confirm you get:
 
@@ -36,7 +56,9 @@ The group provides your workstation. When yours is being arranged, confirm you g
 - Keyboard — check which layout you want (**US / DE / CH**)
 - Mouse
 
-## 2. Wi-Fi (Eduroam)
+## 3. Getting connected
+
+### Wi-Fi
 
 Two things trip people up here: your username isn't any of your email addresses, and your password isn't your global password.
 
@@ -58,7 +80,7 @@ ETH also runs an `eth-iot` network for devices that can't join Eduroam.
 
 More details: <https://isg.inf.ethz.ch/Main/ServicesNetworkWireless>
 
-## 3. Email & Calendar
+### Email & Calendar
 
 **Outlook** is the recommended email client, it keeps you aligned with the rest of the team. You can use another client if you prefer, but Outlook is the smoothest path.
 
@@ -66,7 +88,7 @@ More details: <https://isg.inf.ethz.ch/Main/ServicesNetworkWireless>
 2. Enter your `@ethz.ch` email.
 3. Sign in with your **global password**.
 
-## 4. NAS (storage + website CMS)
+### NAS (storage + website CMS)
 
 The NAS serves a dual purpose:
 
@@ -136,17 +158,25 @@ Once you're connected via Eduroam, you can reach the group NAS:
 
 > _TODO: add macOS and Linux instructions._
 
-## 5. Slack
+### VPN
+
+Needed to reach some internal services from outside the campus network.
+
+- **Setup** &nbsp;·&nbsp; ETH VPN service page: <https://ethz.ch/staffnet/en/it-services/catalogue/network/vpn.html>
+- **Username** &nbsp;·&nbsp; the same role-based login as [Wi-Fi](#wi-fi-eduroam) (e.g. `<username>@student-net.ethz.ch`)
+- **Password** &nbsp;·&nbsp; your **network password**
+
+## 4. Software essentials & ecosystem
+
+Slack and GitHub arrive as invites from the team. The Google and Microsoft licenses you request yourself through ETH's **Unlimited** self-service portal: <https://unlimited.ethz.ch/en/help>
+
+### Slack
 
 The team will send an invite to your **`@arch.ethz.ch`** address. Accept it to join the group workspace.
 
-## 6. GitHub
+### GitHub
 
 The team will send an invite to your **`@arch.ethz.ch`** address. Accept it to join the organization, and ask to be added to the project repositories you'll work on.
-
-## 7. Software & licenses
-
-Request the Google Workspace and Microsoft 365 licenses through ETH's **Unlimited** self-service portal: <https://unlimited.ethz.ch/en/help>
 
 ### Google Workspace
 
@@ -167,24 +197,22 @@ Log in with your `@ethz.ch` email and password; you don't have to request a lice
 
 ### Rhino
 
-The group's main CAD environment. It needs a license.
-
 > _TODO: document where the license is requested._
 
 ### Other tools
 
-- **Zotero** — reference manager.
-- **ORCiD** — persistent researcher identifier; worth registering if you'll publish.
+- **[Zotero](https://www.zotero.org/)** — reference manager.
+- **[ORCiD](https://orcid.org/)** — persistent researcher identifier; worth registering if you'll publish.
 
-## 8. VPN
+### Project folders
 
-Needed to reach some internal services from outside the campus network.
+Set up your **project folder(s)** on the GKR server (NAS) and in the Google Drive shared project drive.
 
-- **Setup** &nbsp;·&nbsp; ETH VPN service page: <https://ethz.ch/staffnet/en/it-services/catalogue/network/vpn.html>
-- **Username** &nbsp;·&nbsp; the same role-based login as [Wi-Fi](#2-wi-fi-eduroam) (e.g. `<username>@student-net.ethz.ch`)
-- **Password** &nbsp;·&nbsp; your **network password**
+### GKR database
 
-## 9. Development environment
+Set up a **GKR database** intro meeting with Alessandra Gabaglio.
+
+## 5. Coding
 
 The group's computational stack is Python-centric and built around [COMPAS](https://compas.dev/index.html).
 
@@ -194,24 +222,10 @@ The group's computational stack is Python-centric and built around [COMPAS](http
 4. Bookmark the COMPAS resources:
    - [COMPAS documentation](https://compas.dev/index.html)
    - [COMPAS in Rhino](https://compas.dev/compas/latest/gettingstarted/rhino.html)
-   - [Tutorials — COMPAS II](https://github.com/compas-teaching/COMPAS-II-FS2022) (FS2022 edition — check whether a newer one exists)
+   - [Tutorials — COMPAS II](https://github.com/compas-teaching/COMPAS-II-FS2023) (FS2023 edition — check whether a newer one exists)
 5. Set up a **coding guidelines** intro meeting with Gonzalo Casas or Chen Kasirer.
 
-## 10. Building access & trainings
-
-- **RFL** (Robotic Fabrication Lab) — request access; the **security training** is required.
-- **IDL** (Immersive Design Lab) — request access and training.
-
-> _TODO: document who grants access and how the trainings are scheduled._
-
-## 11. Admin & perks
-
-- **ETHIS** (ETH's administration portal) — where absences are recorded.
-  > _TODO: confirm with Tanja whether presence time must be entered as well, or only absences._
-- **Halbtax** — SBB half-fare travelcard; request it through Tanja.
-- **ETH Group Management (ACLs)** — access to shared resources is tied to ETH group memberships; ask your supervisor to add you to the relevant groups.
-
-## 12. Mailing lists & recurring meetings
+## 6. Mailing lists & recurring meetings
 
 **Mailing lists:**
 
@@ -224,21 +238,69 @@ The group's computational stack is Python-centric and built around [COMPAS](http
 - COMPAS dev meeting (bi-weekly)
 - Weekly cross section
 
-## 13. First days
+## 7. Building access & trainings
 
-Things to do and set up during your first days:
+- **RFL** (Robotic Fabrication Lab) — request access; the **security training** is required.
+- **IDL** (Immersive Design Lab) — request access and training.
 
-- Get a **tour of the office**.
-- Learn the **food options** on campus (food markets and food trucks).
+> _TODO: document who grants access and how the trainings are scheduled._
+
+## 8. Admin & perks
+
+- **ETHIS** (ETH's administration portal) — where absences are recorded.
+  > _TODO: confirm with Tanja whether presence time must be entered as well, or only absences._
+- **Halbtax** — SBB half-fare travelcard; request it through Tanja.
+- **ETH Group Management (ACLs)** — access to shared resources is tied to ETH group memberships; ask your supervisor to add you to the relevant groups.
+
+## 9. Reading
+
 - Read the **office manual**. _TODO: document where it lives._
-- Set up a **GKR database** intro meeting with Alessandra Gabaglio.
-- Set up your **project folder(s)** on the GKR server (NAS) and in the Google Drive shared project drive.
+- **New PhDs:** read the **PhD study guides** by ETH (received per email).
 
-**For new PhDs:**
+## Quick checklist
 
-- Read the **PhD study guides** by ETH (received per email).
+**Arrival & hardware**
 
-## 14. Who is who
+- [ ] Office tour + campus food intro
+- [ ] Hardware: laptop, screen, keyboard (US/DE/CH), mouse
+
+**Getting connected**
+
+- [ ] Connect to Eduroam (role login, e.g. `@student-net.ethz.ch` + network password)
+- [ ] Log in to Outlook (`@ethz.ch` + global password)
+- [ ] Access and map the NAS
+- [ ] Set up the VPN
+
+**Software & ecosystem**
+
+- [ ] Accept the Slack invite (`@arch.ethz.ch`)
+- [ ] Accept the GitHub invite (`@arch.ethz.ch`) and join the project repos
+- [ ] Request Google Workspace license + get added to shared drives
+- [ ] Request Microsoft 365 license
+- [ ] Log in to Zoom (`@ethz.ch` + global password)
+- [ ] Request the Rhino license
+- [ ] Project folders on the GKR server + Google Drive shared drive
+- [ ] GKR database intro with Alessandra Gabaglio
+
+**Coding**
+
+- [ ] Dev environment: git, VS Code, Python/Anaconda, COMPAS links
+- [ ] Coding guidelines intro with Gonzalo Casas / Chen Kasirer
+
+**Settling in**
+
+- [ ] GKR mailing list (Tanja); NCCR list if it applies
+- [ ] Recurring meeting invites (team, COMPAS dev, cross section)
+- [ ] RFL access & security training; IDL access & training
+- [ ] ETHIS: clarify absence (and presence?) recording with Tanja
+- [ ] Halbtax request (Tanja)
+- [ ] Get added to the ETH groups (ACLs)
+- [ ] Read the office manual
+- [ ] (PhDs) Read the ETH PhD study guides
+
+---
+
+## Who is who
 
 First contacts by topic.
 
@@ -255,38 +317,3 @@ First contacts by topic.
 | **NCCR** | Software ecosystem | Tom, Chen, Gonzalo |
 | **RFL** | Lab team | Philippe, Mike, Toby |
 | **ITA** | Coordinator, RQEs | _TODO_ |
-
-## Quick checklist
-
-**Accounts & access**
-
-- [ ] Connect to Eduroam (role login, e.g. `@student-net.ethz.ch` + network password)
-- [ ] Log in to Outlook (`@ethz.ch` + global password)
-- [ ] Access and map the NAS
-- [ ] Accept the Slack invite (`@arch.ethz.ch`)
-- [ ] Accept the GitHub invite (`@arch.ethz.ch`) and join the project repos
-- [ ] Request Google Workspace license + get added to shared drives
-- [ ] Request Microsoft 365 license
-- [ ] Log in to Zoom (`@ethz.ch` + global password)
-- [ ] Request the Rhino license
-- [ ] Set up the VPN
-- [ ] Get added to the ETH groups (ACLs)
-
-**Workspace**
-
-- [ ] Hardware: laptop, screen, keyboard (US/DE/CH), mouse
-- [ ] Dev environment: git, VS Code, Python/Anaconda, COMPAS links
-
-**Admin & people**
-
-- [ ] ETHIS: clarify absence (and presence?) recording with Tanja
-- [ ] Halbtax request (Tanja)
-- [ ] GKR mailing list (Tanja); NCCR list if it applies
-- [ ] Recurring meeting invites (team, COMPAS dev, cross section)
-- [ ] RFL access & security training; IDL access & training
-- [ ] Office tour + campus food intro
-- [ ] Read the office manual
-- [ ] GKR database intro with Alessandra Gabaglio
-- [ ] Coding guidelines intro with Gonzalo Casas / Chen Kasirer
-- [ ] Project folders on the GKR server + Google Drive shared drive
-- [ ] (PhDs) Read the ETH PhD study guides
