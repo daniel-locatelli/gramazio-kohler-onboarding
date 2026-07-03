@@ -99,65 +99,28 @@ Once you're connected via eduroam, you can reach the GKR Server:
 \\nas22.ethz.ch\arch_ita_gramazio_kohler
 ```
 
-**Detailed setup:**
+**Detailed setup (Windows):**
 
-<details>
-<summary><strong>Windows</strong></summary>
+> ⚠️ **The first connection may be slow and silent** — No feedback for ~2 minutes.
 
-> ⚠️ **The first connection is slow and silent** — No feedback for ~2 minutes.
+Map it as a network drive so it stays available and reconnects at sign-in.
 
-1. Open **File Explorer** and enter the address above and _wait_.
-2. Click  **More choices** (don't accept the default account).
-<figure>
-  <img src="./nas-credentials-1.jpg" alt="Enter network credentials dialog defaulting to the network account" width="400" />
-  <figcaption><em>2a. The dialog opens pre-filled with your <strong>network account</strong>, which the GKR Server rejects. Click <strong>More choices</strong> at the bottom.</em></figcaption>
-</figure>
+![This PC context menu with Map network drive highlighted](./map-network-drive-1.jpg)
 
-<br />
+_At **This PC**, click the three dots (…) and select **Map network drive**._
 
-<figure>
-  <img src="./nas-credentials-2.jpg" alt="Credentials dialog expanded with Use a different account option" width="400" />
-  <figcaption><em>2b. Select <strong>Use a different account</strong>.</em></figcaption>
-</figure>
+![Map Network Drive dialog with drive letter and folder path](./map-network-drive-2.jpg)
 
-<br />
+_Fill in the dialog:_
 
-<figure>
-  <img src="./nas-credentials-3.jpg" alt="Credentials dialog filled with global email and password" width="400" />
-  <figcaption><em>2c. Enter your <strong>global</strong> email and password, then tick <strong>Remember my credentials</strong> so you're not asked again.</em></figcaption>
-</figure>
+- In **Drive**, select the letter `M:` (or any other available letter).
+- In **Folder**, enter `\\nas22.ethz.ch\arch_ita_gramazio_kohler`.
+- Check **Reconnect at sign-in**.
+- Check **Connect using different credentials**.
 
-<br />
+![Windows Security dialog to enter network credentials](./map-network-drive-3.jpg)
 
-3. **(Recommended)** Map it as a network drive so it stays available and reconnects at sign-in.
-
-<figure>
-  <img src="./map-network-drive-1.jpg" alt="This PC context menu with Map network drive highlighted" width="550" />
-  <figcaption><em>3a. At <strong>This PC</strong>, click the three dots (…) and select <strong>Map network drive</strong>.</em></figcaption>
-</figure>
-
-<br />
-
-<figure>
-  <img src="./map-network-drive-2.jpg" alt="Map Network Drive dialog with drive letter and folder path" width="550" />
-  <figcaption><em>3b. Fill in the dialog:</em>
-    <ul>
-      <li>In <strong>Drive</strong>, select the letter <code>M:</code> (or any other available letter).</li>
-      <li>In <strong>Folder</strong>, enter <code>\\nas22.ethz.ch\arch_ita_gramazio_kohler</code>.</li>
-      <li>Check <strong>Reconnect at sign-in</strong>.</li>
-      <li>Check <strong>Connect using different credentials</strong>.</li>
-    </ul>
-  </figcaption>
-</figure>
-
-<br />
-
-<figure>
-  <img src="./map-network-drive-3.jpg" alt="Windows Security dialog to enter network credentials" width="400" />
-  <figcaption><em>3c. Enter your global email and password.</em></figcaption>
-</figure>
-
-</details>
+_Enter your global email and password._
 
 ### 3.4 VPN
 
