@@ -21,7 +21,7 @@ Every service signs you in as `<username>@ethz.ch` with your **global password**
 
 ## 👋 1. First day at the office
 
-Day one is light: get a **tour of the office** and get to know the **food & coffee options** on campus (below).
+Day one is light: get a **tour of the office** and get to know the **food & coffee options** on campus (below). Your onboarding is coordinated by **Petrus Aejmelaeus-Lindström** (welcome session and introduction to the organization), with **Tanja Fehr** (employment & admin), **Matthias Helmreich** (computer & IT setup), and **Alessandra Gabaglio** (communications & documentation).
 
 ### Food & coffee on campus
 
@@ -50,7 +50,7 @@ Vendors rotate each semester, so the grid below is only a snapshot — check **[
 
 ## 🖥️ 2. Hardware
 
-The group provides your workstation. When yours is being arranged, confirm you get:
+The group provides your workstation, set up by the group's **IT specialist, Matthias Helmreich** (your first contact for computer setup and IT questions). When yours is being arranged, confirm you get:
 
 - Laptop
 - Screen
@@ -140,7 +140,7 @@ The team will send an invite to your **`@arch.ethz.ch`** address. Accept it to j
 
 ### 4.2 GitHub
 
-The team will send an invite to your **`@arch.ethz.ch`** address. Accept it to join the organization, and ask to be added to the project repositories you'll work on.
+The group's code lives on GitHub at [github.com/gramaziokohler](https://github.com/gramaziokohler) — one repository per project. The team will send an invite to your **`@arch.ethz.ch`** address; if it doesn't arrive, email the **GitHub manager, Gonzalo Casas** (casas@arch.ethz.ch) to request access. Accept it to join the organization, and ask to be added to the project repositories you'll work on.
 
 ### 4.3 Zoom
 
@@ -161,9 +161,7 @@ Log in with your `@ethz.ch` email and password; you get a license automatically.
 
 ### 4.6 Rhino
 
-One person in the group handles Rhino licenses — ask them (or your supervisor) to get you set up.
-
-> _TODO: name the person responsible for Rhino licenses._
+Non-ETH software licenses (Rhino, Autodesk, etc.) are handled by the group's **IT specialist, Matthias Helmreich** — ask him or your supervisor to get you set up.
 
 ### 4.7 Other tools
 
@@ -191,12 +189,12 @@ flowchart LR
 
 To get started:
 
-- **Set up your project folder(s)** on the **GKR Server** — following the fixed template above — and in the Google Drive shared project drive.
+- **Set up your project folder(s)** on the **GKR Server** — following the fixed template above. Use the **Google Drive** shared project drive only for **collaborative working documents** (budgets, texts); final files stay on the server, and the sync-critical `01_Dokumentation` folder must **never** go on Drive.
 - Book a **GKR database intro meeting** with Alessandra Gabaglio (gabaglio@arch.ethz.ch).
 
 ## 🐍 6. Coding
 
-The group's computational stack is Python-centric and built around [COMPAS](https://compas.dev/index.html).
+The group's computational stack is Python-centric and built around [COMPAS](https://compas.dev/index.html). The canonical setup walkthrough is the group's **[getting_started](https://github.com/gramaziokohler/getting_started)** repository — start there.
 
 1. Install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 2. Install a code editor or IDE — [VS Code](https://code.visualstudio.com/) is the common choice.
@@ -222,22 +220,21 @@ The group's computational stack is Python-centric and built around [COMPAS](http
 
 ## 🔑 8. Building access & trainings
 
-- **RFL** (Robotic Fabrication Laboratory) — access is granted only after an **in-person instruction by the RFL staff**. Arrange it through the **GKR RFL coordinator**, who is the first contact for anything RFL-related.
-  - Working with concrete? The **RFL concrete lab** has its own instruction, given by the lab leader.
+- **RFL** (Robotic Fabrication Laboratory) — access is granted only after an **in-person instruction by the RFL staff**. Arrange it through the **GKR RFL coordinator, Matthias Helmreich** (responsible for RFL on the GKR side), who is the first contact for anything RFL-related.
+  - Working with concrete? The **RFL concrete lab** has its own instruction, given by the concrete lab leader, **Jonathan Leu**.
 - **IDL** (Immersive Design Lab) — request access and training.
   > _TODO: not covered in the office manual — confirm who grants IDL access and how its training is scheduled._
 
 ## 🎟️ 9. Admin & perks
 
-- **ETHIS** (ETH's administration portal) — where absences are recorded.
-  > _TODO: confirm with Tanja whether presence time must be entered as well, or only absences._
+- **Absences** (holidays, sick leave, etc.) are recorded in **two** places: **ETHIS** (ETH's administration portal) *and* the **GKR database** (under ADMIN → FERIEN). Also inform the HR manager (Tanja), your responsible postdoc, and your project team. The office manual only requires recording absences — not daily presence.
 - **Halbtax** — SBB half-fare travelcard; request it through Tanja. Details on the [ETH travel page](https://ethz.ch/staffnet/de/finanzen-und-controlling/reisen.html).
 - **ETH Group Management (ACLs)** — access to shared resources is tied to ETH group memberships; ask your supervisor to add you to the relevant groups.
   > _TODO: list which groups a new member needs and who can add them._
 
 ## 📖 10. Reading
 
-- Read the **[office manual](https://github.com/gramaziokohler/gkr_office_manual/blob/main/office_manual.md)**.
+- Read the **[office manual](https://docs.google.com/document/d/1euW5XSU6QVSIet2KUi013lvJ1MWaPeFY13_or5XQymM)** (maintained in Google Docs).
 - **New PhDs:** read the **PhD study guides** by ETH (received per email).
 
 ## ✅ Quick checklist
@@ -275,7 +272,7 @@ The group's computational stack is Python-centric and built around [COMPAS](http
 - [ ] GKR mailing list (Tanja); NCCR list if it applies
 - [ ] Recurring meeting invites (team, COMPAS dev, cross section)
 - [ ] RFL access & security training; IDL access & training
-- [ ] ETHIS: clarify absence (and presence?) recording with Tanja
+- [ ] Record absences in ETHIS **and** the GKR database (ADMIN → FERIEN)
 - [ ] Halbtax request (Tanja)
 - [ ] Get added to the ETH groups (ACLs)
 - [ ] Read the office manual
@@ -289,13 +286,14 @@ First contacts by topic.
 
 | Where | Role | People |
 | --- | --- | --- |
-| **GKR** | Admin & finance | Tanja (fehr@arch.ethz.ch) |
+| **GKR** | Admin, finance & HR | Tanja (fehr@arch.ethz.ch) |
 | **GKR** | Postdocs | Oliver (bucklin@arch.ethz.ch), Lauren (vasey@arch.ethz.ch), Petrus (apetrus@arch.ethz.ch), Inés (ariza@arch.ethz.ch), Anja (akunic@ethz.ch) |
-| **GKR** | PR & communication | Alessandra (gabaglio@arch.ethz.ch) |
-| **GKR** | Teaching team | _TODO_ |
-| **GKR** | Assistants | _TODO_ |
+| **GKR** | IT, hardware, infrastructure & RFL | Matthias Helmreich |
+| **GKR** | GitHub & software | Gonzalo (casas@arch.ethz.ch) |
+| **GKR** | PR, communication, website & database | Alessandra (gabaglio@arch.ethz.ch) |
+| **GKR** | MAS / teaching | Petrus (apetrus@arch.ethz.ch) |
 | **NCCR** | Management | Russell (loveridge@dfab.ch), Kaitlin (mcnally@dfab.ch), Blanca (hren@dfab.ch) |
 | **NCCR** | Budget & expenses | Tanja (fehr@arch.ethz.ch), Blanca (hren@dfab.ch) |
 | **NCCR** | Software ecosystem | Tom (van.mele@arch.ethz.ch), Chen (kasirer@arch.ethz.ch), Gonzalo (casas@arch.ethz.ch) |
-| **RFL** | Lab team | Philippe, Mike, Toby |
+| **RFL** | Lab team | Michael "Mike" Lyrenmann (director), Philippe Fleischmann, Luca Petrus, Jonathan Leu (concrete lab) |
 | **ITA** | Coordinator, RQEs | _TODO_ |
