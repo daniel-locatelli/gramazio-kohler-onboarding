@@ -207,10 +207,6 @@ One person in the group handles Rhino licenses — ask them (or your supervisor)
 - **[Zotero](https://www.zotero.org/)** — reference manager.
 - **[ORCiD](https://orcid.org/)** — persistent researcher identifier; worth registering if you'll publish.
 
-### 4.8 Project folders
-
-Set up your **project folder(s)** on the **GKR Server** (the group's main network drive) and in the Google Drive shared project drive. On the server, keep to the fixed project template — these folders feed the group website ([§5](#-5-the-gkr-database)).
-
 ## 📇 5. The GKR database
 
 The **GKR database** is the group's content system: each project's descriptions, images, publications, events, and contacts live here, and the public website (<https://gramaziokohler.arch.ethz.ch/>) is **generated from it**.
@@ -230,7 +226,10 @@ flowchart LR
     DB -->|"generates"| Web(["Public website"])
 ```
 
-To get started, set up a **GKR database intro meeting** with Alessandra Gabaglio (gabaglio@arch.ethz.ch).
+To get started:
+
+- **Set up your project folder(s)** on the **GKR Server** — following the fixed template above — and in the Google Drive shared project drive.
+- Book a **GKR database intro meeting** with Alessandra Gabaglio (gabaglio@arch.ethz.ch).
 
 ## 🐍 6. Coding
 
