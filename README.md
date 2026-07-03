@@ -105,11 +105,11 @@ Once you're connected via eduroam, you can reach the GKR Server:
 
 Map it as a network drive so it stays available and reconnects at sign-in.
 
-![This PC context menu with Map network drive highlighted](./map-network-drive-1.jpg)
+<img src="./map-network-drive-1.jpg" alt="This PC context menu with Map network drive highlighted" width="550" />
 
 _At **This PC**, click the three dots (…) and select **Map network drive**._
 
-![Map Network Drive dialog with drive letter and folder path](./map-network-drive-2.jpg)
+<img src="./map-network-drive-2.jpg" alt="Map Network Drive dialog with drive letter and folder path" width="550" />
 
 _Fill in the dialog:_
 
@@ -118,7 +118,7 @@ _Fill in the dialog:_
 - Check **Reconnect at sign-in**.
 - Check **Connect using different credentials**.
 
-![Windows Security dialog to enter network credentials](./map-network-drive-3.jpg)
+<img src="./map-network-drive-3.jpg" alt="Windows Security dialog to enter network credentials" width="400" />
 
 _Enter your global email and password._
 
