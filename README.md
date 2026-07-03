@@ -194,15 +194,15 @@ To get started:
 
 ## 🐍 6. Coding
 
-The group's computational stack is Python-centric and built around [COMPAS](https://compas.dev/index.html). The canonical setup walkthrough is the group's **[getting_started](https://github.com/gramaziokohler/getting_started)** repository — start there.
+The group's computational stack is Python-centric and built around [COMPAS](https://compas.dev/index.html).
 
 1. Install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 2. Install a code editor or IDE — [VS Code](https://code.visualstudio.com/) is the common choice.
-3. Install Python via **Anaconda**, and get comfortable with virtual environments — one environment per project is the norm.
+3. Install Python using a virual environment manager, like **`conda`** or **`uv`**. One virtual environment per project is the norm, which is the default for `uv`.
 4. Bookmark the COMPAS resources:
    - [COMPAS documentation](https://compas.dev/index.html)
-   - [COMPAS in Rhino](https://compas.dev/compas/latest/gettingstarted/rhino.html)
-   - [Tutorials — COMPAS II](https://github.com/compas-teaching/COMPAS-II-FS2023) (FS2023 edition — check whether a newer one exists)
+   - [COMPAS in Rhino](https://compas.dev/compas/latest/userguide/cad.rhino8.html)
+   - [Workshop — COMPAS FAB 2.0](https://github.com/gramaziokohler/workshop_compas_fab_2)
 5. Set up a **coding guidelines** intro meeting with Gonzalo Casas (casas@arch.ethz.ch) or Chen Kasirer (kasirer@arch.ethz.ch).
 
 ## 📬 7. Mailing lists & recurring meetings
