@@ -28,15 +28,17 @@ Day one is light: get a **tour of the office** and get to know the **food & coff
 _Hours & menus shift each semester — see the [live page](https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/restaurants-and-cafeterias/hoenggerberg.html)._
 
 - **[FUSION meal & coffee](https://maps.app.goo.gl/EuoSGRFboac5KGyY7)** — free-flow restaurant (classic/veg, pasta, buffet) + adjacent coffee shop; HCI building.
-- **[Food Market](https://maps.app.goo.gl/zjg8U73At9AwHuJs8)** — SV (campus caterer) counter (pizza/pasta, grill, veg); HPR building.
+- **[Food Market](https://maps.app.goo.gl/zjg8U73At9AwHuJs8)** — counter run by SV, the campus caterer (pizza/pasta, grill, veg); HPR building.
 - **[Alumni quattro Lounge](https://maps.app.goo.gl/cGtFkSMN6dCLm8Mj8)** — lounge café.
 - **[Rice UP!](https://maps.app.goo.gl/5nKEjqt3zGEhrJY9A)** — Asian rice bowls.
 - **[Mendokoro](https://maps.app.goo.gl/wgPFVYDUpktqSjxy7)** — Japanese ramen & snacks, takeaway; HXE building.
 - **[Restaurant Bellavista](https://maps.app.goo.gl/wWmT2XTKVNs43WGVA)** — table-service restaurant, pricier option.
 - **[Coop supermarket](https://maps.app.goo.gl/7Zzzgq639gCaZWWcA)** — on campus.
-- **[Street food](https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/street-food.html)** — rotating food trucks, Mon–Fri from 11:00, seasonal (Aug–Dec). Vendors change each semester, so treat the grid below as a snapshot and check the link for the current line-up:
+- **[Street food](https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/street-food.html)** — rotating food trucks, Mon–Fri from 11:00, seasonal (Aug–Dec), at two squares:
   - **[Stefano-Franscini-Platz](https://maps.app.goo.gl/NMJCScv9bo2ssMJC7)** — coffee & snacks
   - **[Joseph-von-Deschwanden-Platz](https://maps.app.goo.gl/iFgtBzVB6viNLat5A)** — hot meals
+
+Vendors rotate each semester, so the grid below is only a snapshot — check **[Street food](https://ethz.ch/en/campus/getting-to-know/cafes-restaurants-shops/gastronomy/street-food.html)** for the current line-up.
 
 | Day | Stefano-Franscini-Platz | Joseph-von-Deschwanden-Platz |
 | --- | --- | --- |
