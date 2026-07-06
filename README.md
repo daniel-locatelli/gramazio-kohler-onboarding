@@ -194,15 +194,15 @@ To get started:
 
 ## 🐍 6. Coding
 
-The group's computational stack is Python-centric and built around [COMPAS](https://compas.dev/index.html). The canonical setup walkthrough is the group's **[getting_started](https://github.com/gramaziokohler/getting_started)** repository — start there.
+The group's computational stack is Python-centric and built around [COMPAS](https://compas.dev/index.html).
 
 1. Install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 2. Install a code editor or IDE — [VS Code](https://code.visualstudio.com/) is the common choice.
-3. Install Python via **Anaconda**, and get comfortable with virtual environments — one environment per project is the norm.
+3. Install Python using a virual environment manager, like **`conda`** or **`uv`**. One virtual environment per project is the norm, which is the default for `uv`.
 4. Bookmark the COMPAS resources:
    - [COMPAS documentation](https://compas.dev/index.html)
-   - [COMPAS in Rhino](https://compas.dev/compas/latest/gettingstarted/rhino.html)
-   - [Tutorials — COMPAS II](https://github.com/compas-teaching/COMPAS-II-FS2023) (FS2023 edition — check whether a newer one exists)
+   - [COMPAS in Rhino](https://compas.dev/compas/latest/userguide/cad.rhino8.html)
+   - [Workshop — COMPAS FAB 2.0](https://github.com/gramaziokohler/workshop_compas_fab_2)
 5. Set up a **coding guidelines** intro meeting with Gonzalo Casas (casas@arch.ethz.ch) or Chen Kasirer (kasirer@arch.ethz.ch).
 
 ## 📬 7. Mailing lists & recurring meetings
@@ -210,24 +210,22 @@ The group's computational stack is Python-centric and built around [COMPAS](http
 **Mailing lists:**
 
 - **GKR mailing list** — Tanja adds you.
-- **NCCR mailing list** — if your project is part of the NCCR (Digital Fabrication).
 
 **Recurring meetings** — ask to be added to the invites:
 
 - Team meeting
-- COMPAS dev meeting (bi-weekly)
 - Weekly cross section
+- COMPAS dev meeting (bi-weekly)
 
 ## 🔑 8. Building access & trainings
 
 - **RFL** (Robotic Fabrication Laboratory) — access is granted only after an **in-person instruction by the RFL staff**. Arrange it through the **GKR RFL coordinator, Matthias Helmreich** (responsible for RFL on the GKR side), who is the first contact for anything RFL-related.
   - Working with concrete? The **RFL concrete lab** has its own instruction, given by the concrete lab leader, **Jonathan Leu**.
-- **IDL** (Immersive Design Lab) — request access and training.
-  > _TODO: not covered in the office manual — confirm who grants IDL access and how its training is scheduled._
+- **IDL** (Immersive Design Lab) — request access and training to Fabio Scotto (scotto@arch.ethz.ch)
 
 ## 🎟️ 9. Admin & perks
 
-- **Absences** (holidays, sick leave, etc.) are recorded in **two** places: **ETHIS** (ETH's administration portal) *and* the **GKR database** (under ADMIN → FERIEN). Also inform the HR manager (Tanja), your responsible postdoc, and your project team. The office manual only requires recording absences — not daily presence.
+- **Absences** (holidays, sick leave, etc.) are recorded in **two** places: **ETHIS** (ETH's administration portal) *and* the **GKR database** (under ADMIN → FERIEN). Also inform the your responsible postdoc and your project team. The office manual only requires recording absences — not daily presence. Some contracts require to record presence as well, check with Tanja.
 - **Halbtax** — SBB half-fare travelcard; request it through Tanja. Details on the [ETH travel page](https://ethz.ch/staffnet/de/finanzen-und-controlling/reisen.html).
 - **ETH Group Management (ACLs)** — access to shared resources is tied to ETH group memberships; ask your supervisor to add you to the relevant groups.
   > _TODO: list which groups a new member needs and who can add them._
@@ -264,12 +262,12 @@ The group's computational stack is Python-centric and built around [COMPAS](http
 
 **Coding**
 
-- [ ] Dev environment: git, VS Code, Python/Anaconda, COMPAS links
+- [ ] Dev environment: git, VS Code, Python (conda/uv), COMPAS
 - [ ] Coding guidelines intro with Gonzalo Casas / Chen Kasirer
 
 **Settling in**
 
-- [ ] GKR mailing list (Tanja); NCCR list if it applies
+- [ ] GKR mailing list (Tanja)
 - [ ] Recurring meeting invites (team, COMPAS dev, cross section)
 - [ ] RFL access & security training; IDL access & training
 - [ ] Record absences in ETHIS **and** the GKR database (ADMIN → FERIEN)
