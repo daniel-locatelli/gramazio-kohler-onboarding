@@ -195,16 +195,75 @@ To get started:
 
 ## 🐍 6. Coding
 
-The group's computational stack is Python-centric and built around [COMPAS](https://compas.dev/index.html).
+The group's computational stack is Python-centric and built around [COMPAS](https://compas.dev/index.html). The whole setup below takes about 10 minutes.
+
+### 6.1 Install the tools
 
 1. Install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 2. Install a code editor or IDE — [VS Code](https://code.visualstudio.com/) is the common choice.
-3. Install Python using a virual environment manager, like **`conda`** or **`uv`**. One virtual environment per project is the norm, which is the default for `uv`.
-4. Bookmark the COMPAS resources:
-   - [COMPAS documentation](https://compas.dev/index.html)
-   - [COMPAS in Rhino](https://compas.dev/compas/latest/userguide/cad.rhino8.html)
-   - [Workshop — COMPAS FAB 2.0](https://github.com/gramaziokohler/workshop_compas_fab_2)
-5. Set up a **coding guidelines** intro meeting with Gonzalo Casas (casas@arch.ethz.ch) or Chen Kasirer (kasirer@arch.ethz.ch).
+3. Install a Python virtual environment manager, like **`uv`** (used in the steps below) or **`conda`**. One virtual environment per project is the norm, which is the default for `uv`.
+
+   ```powershell
+   winget install astral-sh.uv
+   ```
+
+> ⚠️ **Windows:** terminals that were already open won't see freshly installed commands — open a new terminal before continuing. And if typing `python` opens the Microsoft Store, that's a Windows placeholder, not a Python install; ignore it — `uv` brings its own Python.
+
+### 6.2 Hello COMPAS
+
+In a new project folder:
+
+```powershell
+uv venv
+uv pip install compas
+```
+
+`uv` downloads a current CPython and installs COMPAS from wheels — the whole thing takes about 10 seconds. Verify it works:
+
+```powershell
+uv run python -c "from compas.geometry import Box; from compas.datastructures import Mesh; m = Mesh.from_shape(Box(1)); print('COMPAS OK:', m.number_of_vertices(), 'vertices')"
+```
+
+Expected output: `COMPAS OK: 8 vertices`
+
+### 6.3 COMPAS in Rhino 8
+
+Rhino 8 ships its **own** CPython (3.9), separate from the environment you just created. Nothing to install: a `# r:` requirement comment at the top of a script auto-installs packages into Rhino's Python. Type `ScriptEditor` in Rhino, paste, and run:
+
+```python
+# r: compas
+from compas.geometry import Box
+from compas.scene import Scene
+
+scene = Scene()
+scene.add(Box(1))
+scene.draw()
+```
+
+A box appears in the viewport. Note that you now have **two Pythons** — Rhino's (3.9) and your dev environment's — so a package being "installed" in one says nothing about the other. Details: [COMPAS in Rhino 8](https://compas.dev/compas/latest/userguide/cad.rhino8.html).
+
+### 6.4 Working on a group package
+
+The development setup for the group's COMPAS packages is uniform (example: `compas_timber`):
+
+```powershell
+git clone https://github.com/gramaziokohler/compas_timber.git
+cd compas_timber
+uv sync --extra dev
+uv run pytest
+```
+
+Green tests = working dev environment, with the package installed editable — your local changes are live. See the repo's `CONTRIBUTING.md` for the contribution workflow.
+
+> ⚠️ **Windows:** if `invoke test` sits there forever *after* the tests have passed, that's an upstream `invoke` stdin quirk in non-interactive shells — run `uv run pytest` directly instead.
+
+### 6.5 Resources & guidelines
+
+- Bookmark the COMPAS resources:
+  - [COMPAS documentation](https://compas.dev/index.html)
+  - [COMPAS in Rhino](https://compas.dev/compas/latest/userguide/cad.rhino8.html)
+  - [Workshop — COMPAS FAB 2.0](https://github.com/gramaziokohler/workshop_compas_fab_2)
+- Set up a **coding guidelines** intro meeting with Gonzalo Casas (casas@arch.ethz.ch) or Chen Kasirer (kasirer@arch.ethz.ch).
 
 ## 📬 7. Mailing lists & recurring meetings
 
@@ -263,7 +322,8 @@ The group's computational stack is Python-centric and built around [COMPAS](http
 
 **Coding**
 
-- [ ] Dev environment: git, VS Code, Python (conda/uv), COMPAS
+- [ ] Dev environment: git, VS Code, Python (uv/conda), COMPAS
+- [ ] "Hello COMPAS" runs — headless (§6.2) and in Rhino 8 (§6.3)
 - [ ] Coding guidelines intro with Gonzalo Casas / Chen Kasirer
 
 **Settling in**
