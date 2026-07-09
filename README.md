@@ -195,16 +195,73 @@ To get started:
 
 ## 🐍 6. Coding
 
-The group's computational stack is Python-centric and built around [COMPAS](https://compas.dev/index.html).
+The group's computational stack is Python-centric and built around [COMPAS](https://compas.dev/index.html). As a new member you'll most likely collaborate on one of the group's COMPAS packages — the walkthrough below uses `compas_timber` as the example. It takes about 10 minutes.
+
+### 6.1 Install the tools
 
 1. Install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 2. Install a code editor or IDE — [VS Code](https://code.visualstudio.com/) is the common choice.
-3. Install Python using a virual environment manager, like **`conda`** or **`uv`**. One virtual environment per project is the norm, which is the default for `uv`.
-4. Bookmark the COMPAS resources:
-   - [COMPAS documentation](https://compas.dev/index.html)
-   - [COMPAS in Rhino](https://compas.dev/compas/latest/userguide/cad.rhino8.html)
-   - [Workshop — COMPAS FAB 2.0](https://github.com/gramaziokohler/workshop_compas_fab_2)
-5. Set up a **coding guidelines** intro meeting with Gonzalo Casas (casas@arch.ethz.ch) or Chen Kasirer (kasirer@arch.ethz.ch).
+3. Install [uv](https://docs.astral.sh/uv/), the Python environment manager used below:
+
+   ```powershell
+   # Windows
+   winget install astral-sh.uv
+   ```
+
+   ```bash
+   # macOS
+   brew install uv
+
+   # Linux
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+   ```
+
+   (Any method from the [uv install docs](https://docs.astral.sh/uv/getting-started/installation/) works.)
+
+> ⚠️ Open a *new* terminal after installing — already-open ones won't see `uv`. **Windows:** if typing `python` opens the Microsoft Store, ignore it — that's a placeholder, not a Python install; `uv` brings its own Python.
+
+### 6.2 Set up the package you'll work on
+
+```powershell
+git clone https://github.com/gramaziokohler/compas_timber.git
+cd compas_timber
+uv sync --extra dev
+uv run pytest
+```
+
+Green tests = you're ready to work. What just happened:
+
+- `uv sync` created a virtual environment (`.venv`) and installed everything from the repo's lock file: **compas_timber editable** — your local edits are live, play with it freely — and its dependencies, **including `compas` itself, as pinned releases from PyPI** (the public Python package registry). You don't need a local copy of COMPAS core to work on a package built on it.
+- There is no `activate` step: `uv run <command>` uses the project's `.venv` automatically. (Activating it with `.venv\Scripts\activate`, as some group material does, is equivalent.)
+
+As a group member you have write access: clone directly and work on branches, as above — the *fork* workflow in `CONTRIBUTING.md` is for external contributors. Test with `uv run pytest` (`invoke test` is equivalent in a terminal, but can hang in automated environments — a known upstream issue).
+
+### 6.3 See it in Rhino
+
+Rhino 8 ships its **own** CPython (3.9), separate from the environment you just created — a package "installed" in one says nothing about the other. Nothing to install: a `# r:` comment at the top of a script auto-installs packages into Rhino's Python. In Rhino: `ScriptEditor` → File → New → **Python 3** → paste and run:
+
+```python
+# r: compas
+from compas.geometry import Box
+from compas.scene import Scene
+
+scene = Scene()
+scene.add(Box(1))
+scene.draw()
+```
+
+A box appears in the viewport. Details: [COMPAS in Rhino 8](https://compas.dev/compas/latest/userguide/cad.rhino8.html). For Grasshopper, packages with GH components (compas_timber included) also install code-free via Rhino's `PackageManager` (Yak) — note the published version can lag behind GitHub.
+
+### 6.4 Resources & guidelines
+
+- Bookmark the COMPAS resources:
+  - [COMPAS documentation](https://compas.dev/index.html)
+  - [COMPAS in Rhino](https://compas.dev/compas/latest/userguide/cad.rhino8.html)
+  - [Workshop — COMPAS FAB 2.0](https://github.com/gramaziokohler/workshop_compas_fab_2)
+
+  > **Heads-up:** the official COMPAS docs still recommend **conda** and don't mention uv. Both work (`conda create -n research -c conda-forge compas` ≈ `uv venv` + `uv pip install compas`) — don't let the difference throw you. The FAB workshop uses uv, with an activated venv (see §6.2).
+
+- Set up a **coding guidelines** intro meeting with Gonzalo Casas (casas@arch.ethz.ch) or Chen Kasirer (kasirer@arch.ethz.ch).
 
 ## 📬 7. Mailing lists & recurring meetings
 
@@ -263,7 +320,8 @@ The group's computational stack is Python-centric and built around [COMPAS](http
 
 **Coding**
 
-- [ ] Dev environment: git, VS Code, Python (conda/uv), COMPAS
+- [ ] Dev environment: git, VS Code, uv
+- [ ] Your package's tests pass locally (§6.2); COMPAS box drawn in Rhino 8 (§6.3)
 - [ ] Coding guidelines intro with Gonzalo Casas / Chen Kasirer
 
 **Settling in**
