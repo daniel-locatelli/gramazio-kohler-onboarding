@@ -84,7 +84,7 @@ On Linux and Android, eduroam needs extra configuration: [Wi-Fi (Linux and Andro
 
 1. Go to <https://outlook.office.com/mail/>.
 2. Sign in with your **`@ethz.ch`** account.
-3. Add the shared calendar `itaevent@ethz.ch` to see the events happening around the building.
+3. Add the shared calendar `itaevent@ethz.ch` to see the events happening in the building.
 
 ### 3.3 Network drives (GKR Server)
 
