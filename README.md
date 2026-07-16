@@ -277,6 +277,7 @@ A box appears in the viewport. Details: [COMPAS in Rhino 8](https://compas.dev/c
 
 ## 🔑 8. Building access & trainings
 
+- **HIB** After hours access — To access the building after hours you need your card and a password that you set [here](https://ethis.ethz.ch/sap/bc/ui2/flp?#ZHR_ESS_pin-change). 
 - **RFL** (Robotic Fabrication Laboratory) — access is granted only after an **in-person instruction by the RFL staff**. Arrange it through the **GKR RFL coordinator, Matthias Helmreich** (responsible for RFL on the GKR side), who is the first contact for anything RFL-related.
   - Working with concrete? The **RFL concrete lab** has its own instruction, given by the concrete lab leader, **Jonathan Leu**.
 - **IDL** (Immersive Design Lab) — request access and training to Fabio Scotto (scotto@arch.ethz.ch)
